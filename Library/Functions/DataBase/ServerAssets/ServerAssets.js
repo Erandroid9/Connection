@@ -1,14 +1,18 @@
-import { CONDITION } from "../Condition/Condition";
+export const SERVERASSETS=(ELEMENTS,NAME,CALLBACK)=>{
 
-export const SERVERASSETS=(NAME,CALLBACK)=>{
+    const ELEMENT=document.querySelector(ELEMENTS)
 
     CONDITION(localStorage.getItem("Env") ==="Dev",()=>{
 
-        CALLBACK("./Library/Assets/"+NAME);
+        ELEMENT.src="./Library/Assets/"+NAME;
+
+        CALLBACK(ELEMENT);
 
     } ,()=>{
 
-        CALLBACK("https://erandroid9.github.io/Connection/Library/Assets/"+NAME);
+        ELEMENT.src="https://erandroid9.github.io/Connection/Library/Assets/"+NAME;
+
+        CALLBACK(ELEMENT);
 
     });
 

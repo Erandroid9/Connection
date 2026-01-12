@@ -3,9 +3,10 @@ const START=()=>{
     DISPLAY("",`
 
         <header>
-        
-            <p>Test</p>
-        
+
+
+        <img class="Usericon"/>
+         
         </header>
 
         <footer>
@@ -13,6 +14,16 @@ const START=()=>{
         </footer>
         
     `);
+
+    SERVERASSETS(".Usericon","user.png",(Data)=>{
+
+        CLICK(Data,()=>{
+
+            alert("Working")
+
+        })
+
+    });
 
 };
 
