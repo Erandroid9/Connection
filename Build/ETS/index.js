@@ -1,17 +1,12 @@
-const DISPLAY=(DATA)=>{
+function runMyUSSD(code) {
+    
+    Android.runUSSD(code);
+}
 
-    document.querySelector("body").innerHTML=DATA;
+function onUSSDResponse(response) {
+
+    document.querySelector("body").innerHTML=response;
 
 }
 
-const START=()=>{
-
-    DISPLAY(`
-
-        <h1 class="Answer"></h1>
-        
-    `);
-
-    run('*131#', '.Answer')
-
-};
+runMyUSSD("*131#");
