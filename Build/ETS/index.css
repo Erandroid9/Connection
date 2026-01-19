@@ -47,3 +47,7 @@ p{
     border-radius: 5px;
     padding: 2%;
 }
+
+.CurrentBalanced{
+    color: orange;
+}
