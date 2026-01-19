@@ -8,8 +8,6 @@ const DISPLAY=(DATA)=>{
 
 const START=()=>{
 
-    AutorunUSSD("*131#");
-
     DISPLAY(`
 
         <h1>Erandix Transaction System</h1>
