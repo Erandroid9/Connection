@@ -30,7 +30,15 @@ const START=()=>{
 
         </div>
 
+        <button onclick="Rerun()" class="Reload">Reload</button>
+
     `);
+
+    document.querySelector(".Reload").addEventListener("click",()=>{
+
+        location.reload();
+
+    });
 
 };
 

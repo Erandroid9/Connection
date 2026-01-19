@@ -16,7 +16,7 @@ const START=()=>{
 
             <p>E.T.S</p>
 
-            <p>Bal:O</p>
+            <p>Bal:0</p>
         
         </header>
 
@@ -30,7 +30,15 @@ const START=()=>{
 
         </div>
 
+        <button onclick="Rerun()" class="Reload">Reload</button>
+
     `);
+
+    document.querySelector(".Reload").addEventListener("click",()=>{
+
+        location.reload();
+
+    });
 
 };
 
