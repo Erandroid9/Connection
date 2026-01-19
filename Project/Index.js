@@ -8,7 +8,7 @@ const DISPLAY=(DATA)=>{
 
 const START=()=>{
 
-    AutorunUSSD("*131#");
+    //AutorunUSSD("*131#");
 
     DISPLAY(`
 
