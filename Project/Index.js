@@ -43,8 +43,6 @@ function showResults() {
 
 const START=()=>{
 
-    //AutorunUSSD("*131#");
-
     DISPLAY(`
 
         <header>
@@ -63,19 +61,17 @@ const START=()=>{
             
             </div>
 
-            <br>
-
-            <h1>Stored Data</h1>
-
-            <div class="ResultHolder">
-
-                <p>${localStorage.getItem("Message")}</p>
-            
-            </div>
-
         </div>
 
-        <button onclick="Rerun()" class="Reload">Reload</button>
+        <footer>
+
+            <button class="Airtime" >Airtime</button>
+
+            <button class="Account">Account Balance</button>
+
+            <button class="Reload" >Reload</button>
+
+        </footer>
 
     `);
 
@@ -84,6 +80,18 @@ const START=()=>{
     document.querySelector(".Reload").addEventListener("click",()=>{
 
         location.reload();
+
+    });
+ 
+    document.querySelector(".Airtime").addEventListener("click",()=>{
+
+       AutorunUSSD("*131#");
+
+    });
+
+    document.querySelector(".Account").addEventListener("click",()=>{
+
+        AutorunUSSD("*165*8*1*20202#");
 
     });
 
