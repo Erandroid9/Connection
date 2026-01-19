@@ -28,6 +28,16 @@ const START=()=>{
             
             </div>
 
+            <br>
+
+            <h1>Stored Data</h1>
+
+            <div class="ResultHolder">
+
+                <p>${localStorage.getItem("Message")}</p>
+            
+            </div>
+
         </div>
 
         <button onclick="Rerun()" class="Reload">Reload</button>

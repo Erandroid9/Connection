@@ -8,7 +8,7 @@ const DISPLAY=(DATA)=>{
 
 const START=()=>{
 
-    //AutorunUSSD("*165*8*1*20202#");
+    //AutorunUSSD("*131#");
 
     DISPLAY(`
 
@@ -25,6 +25,16 @@ const START=()=>{
             <div class="ResultHolder">
 
                 <p class="results"></p>
+            
+            </div>
+
+            <br>
+
+            <h1>Stored Data</h1>
+
+            <div class="ResultHolder">
+
+                <p>${localStorage.getItem("Message")}</p>
             
             </div>
 
