@@ -31,7 +31,7 @@ function showResults() {
             console.log("Balance saved:", balance);
 
             // Update the header balance dynamically
-            const balHeader = document.querySelector(".CurrentBalanced");
+           const balHeader = document.querySelector("header p:nth-child(2)");
             if (balHeader) {
                 balHeader.innerText = `Bal: ${balance}`;
             }
