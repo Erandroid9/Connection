@@ -16,7 +16,7 @@ const START=()=>{
 
         <h2>Results</h2>
 
-        <p>${localStorage.getItem("Message")}</p>
+        <p class="results"></p>
         
     `);
 
