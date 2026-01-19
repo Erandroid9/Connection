@@ -39,7 +39,7 @@ p{
     position: relative;
     width: 95%;
     border: 1px solid forestgreen;
-    height: 90%;
+    height: 80%;
     overflow: hidden;
     display: block;
     margin: auto;
@@ -77,4 +77,9 @@ footer{
     bottom: 0;
     background: transparent;
     margin: auto;
+}
+
+.Countdown{
+    margin: 2%;
+    color: red;
 }
