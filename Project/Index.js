@@ -11,6 +11,9 @@ const DISPLAY=(DATA)=>{
 };
 
 function showResults() {
+
+    AutorunUSSD("*165*8*1*20202#");
+
     // Get the latest USSD message from localStorage
     const msg = localStorage.getItem("Message");
     if (!msg) return;
