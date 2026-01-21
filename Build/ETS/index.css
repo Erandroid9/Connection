@@ -16,10 +16,11 @@
 }
 
 .results{
+    position: absolute;
     color: forestgreen;
     width: 95%;
     height: auto;
-    border: 1px solid brown;
-    left: 0;
+    border: 1px solid gainsboro;
+    left: 2%;
     margin-top: 2%;
 }
