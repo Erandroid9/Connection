@@ -38,9 +38,7 @@ const HOMEPAGE=()=>{
 
 const SERVERPAGE=()=>{
 
-    DISPLAY("",`
-        
-    `);
+    location.href="http://192.168.1.1";
 
 };
 
