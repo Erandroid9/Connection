@@ -5,17 +5,23 @@ const START=()=>{
         <header>
 
             <p>ERANDIX</p>
+
+            <button class="RightButton">Reload</button>
         
         </header>
 
         <footer>
 
-            <button>Hello</button>
+            <button class="SemiButtons" >Airtime</button>
+
+            <button class="SemiButtons" >Balance</button>
+
+            <button class="SemiButtons" >Server</button>
         
         </footer>
         
     `);
 
-}
+};
 
 START();
