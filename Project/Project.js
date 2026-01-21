@@ -2,7 +2,17 @@ const START=()=>{
 
     DISPLAY("",`
 
-        <h1>Hello</h1>
+        <header>
+
+            <p>ERANDIX</p>
+        
+        </header>
+
+        <footer>
+
+            <button>Hello</button>
+        
+        </footer>
         
     `);
 
