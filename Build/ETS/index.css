@@ -6,3 +6,19 @@
 .SemiButtons{
     width: 100px;
 }
+
+.DataHolder{
+    position: absolute;
+    top: 50px;
+    height: auto;
+    bottom: 50px;
+    background: transparent;
+}
+
+.results{
+    color: forestgreen;
+    margin: 2%;
+    height: auto;
+    border: 1px solid brown;
+    padding: 2%;
+}

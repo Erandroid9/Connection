@@ -16,11 +16,17 @@ const HOMEPAGE=()=>{
         
         </header>
 
+        <div class="DataHolder">
+
+            <p class="results"> Showing Results  </p>
+        
+        </div>
+
         <footer>
 
-            <button class="SemiButtons" >Airtime</button>
+            <button id="Airtime" class="SemiButtons" >Airtime</button>
 
-            <button class="SemiButtons" >Balance</button>
+            <button id="Balance" class="SemiButtons" >Balance</button>
 
             <button id="Server" class="SemiButtons" >Server</button>
         
@@ -37,6 +43,18 @@ const HOMEPAGE=()=>{
     CLICK("#Reload",()=>{
 
         RELOAD();
+
+    });
+
+    CLICK("#Airtime",()=>{
+
+        AutorunUSSD("*131#");
+
+    });
+
+    CLICK("#Balance",()=>{
+
+        AutorunUSSD("*165*8*1*20202#");
 
     });
 
