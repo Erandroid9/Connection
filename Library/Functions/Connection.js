@@ -6,9 +6,11 @@ import { FUNCTIONED } from "./DataBase/Functioned/Functioned.js";
 import { RELOAD } from "./DataBase/Reload/Reload.js";
 import { ROUTER } from "./DataBase/Router/Router.js";
 import { SERVER } from "./DataBase/Server/Server.js";
+import { ZOOM } from "./DataBase/Zoom/Zoom.js";
+
 
 
 export{
-ADD,CONDITION,DISPLAY,ROUTER,CLICK,FUNCTIONED,SERVER,RELOAD
+ADD,CONDITION,DISPLAY,ROUTER,CLICK,FUNCTIONED,SERVER,RELOAD,ZOOM
 }
 

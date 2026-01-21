@@ -1,4 +1,4 @@
-import { ADD, CLICK, CONDITION, DISPLAY, FUNCTIONED, RELOAD, ROUTER, SERVER } from "./Library/Functions/Connection.js";
+import { ADD, CLICK, CONDITION, DISPLAY, FUNCTIONED, RELOAD, ROUTER, SERVER, ZOOM } from "./Library/Functions/Connection.js";
 
 window.ADD=ADD;
 window.CONDITION=CONDITION;
@@ -8,3 +8,4 @@ window.ROUTER=ROUTER;
 window.CLICK=CLICK;
 window.SERVER=SERVER;
 window.RELOAD=RELOAD;
+window.ZOOM=ZOOM;

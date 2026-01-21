@@ -1,5 +1,7 @@
 const START=()=>{
 
+    ZOOM();
+
     ROUTER("",HOMEPAGE,"HOMEPAGE");
 
 };
