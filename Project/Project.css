@@ -17,8 +17,10 @@
 
 .results{
     color: forestgreen;
+    width: 90%;
     margin: 2%;
     height: auto;
     border: 1px solid brown;
     padding: 2%;
+    left: 0;
 }
