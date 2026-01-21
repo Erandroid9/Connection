@@ -7,3 +7,5 @@ const START=()=>{
     `);
 
 }
+
+START();
