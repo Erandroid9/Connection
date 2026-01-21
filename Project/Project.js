@@ -12,7 +12,7 @@ const HOMEPAGE=()=>{
 
             <p>ERANDIX</p>
 
-            <button class="RightButton">Reload</button>
+            <button id="Reload" class="RightButton">Reload</button>
         
         </header>
 
@@ -30,15 +30,15 @@ const HOMEPAGE=()=>{
 
     CLICK("#Server",()=>{
 
-        ROUTER(" ",SERVERPAGE,"HOMEPAGE");
+        ROUTER(" ",SERVER,"HOMEPAGE");
 
     });
 
-};
+    CLICK("#Reload",()=>{
 
-const SERVERPAGE=()=>{
+        RELOAD();
 
-    location.href="http://192.168.1.1";
+    });
 
 };
 

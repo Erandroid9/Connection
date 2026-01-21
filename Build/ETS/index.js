@@ -1,12 +1,18 @@
 const START=()=>{
 
+    ROUTER("",HOMEPAGE,"HOMEPAGE");
+
+};
+
+const HOMEPAGE=()=>{
+
     DISPLAY("",`
 
         <header>
 
             <p>ERANDIX</p>
 
-            <button class="RightButton">Reload</button>
+            <button id="Reload" class="RightButton">Reload</button>
         
         </header>
 
@@ -16,11 +22,23 @@ const START=()=>{
 
             <button class="SemiButtons" >Balance</button>
 
-            <button class="SemiButtons" >Server</button>
+            <button id="Server" class="SemiButtons" >Server</button>
         
         </footer>
         
     `);
+
+    CLICK("#Server",()=>{
+
+        ROUTER(" ",SERVER,"HOMEPAGE");
+
+    });
+
+    CLICK("#Reload",()=>{
+
+        RELOAD();
+
+    });
 
 };
 
