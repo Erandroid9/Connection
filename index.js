@@ -1,6 +1,8 @@
-import { ADD, CONDITION, DISPLAY, ROUTER } from "./Library/Functions/Connection.js";
+import { ADD, CLICK, CONDITION, DISPLAY, FUNCTIONED, ROUTER } from "./Library/Functions/Connection.js";
 
 window.ADD=ADD;
 window.CONDITION=CONDITION;
 window.DISPLAY=DISPLAY;
+window.FUNCTIONED=FUNCTIONED;
 window.ROUTER=ROUTER;
+window.CLICK=CLICK;

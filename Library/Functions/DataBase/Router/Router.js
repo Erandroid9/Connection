@@ -12,6 +12,8 @@ export const ROUTER = (NEWPAGE, FUNCTION, FUNCTIONBACK) => {
 
     });
 
+    
+
     FUNCTIONED(window,"popstate",()=>{
 
         const previousPageFunction = sessionStorage.getItem("PreviousPage");
