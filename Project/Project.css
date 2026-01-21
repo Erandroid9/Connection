@@ -18,9 +18,9 @@
 .results{
     position: absolute;
     color: forestgreen;
-    width: 95%;
+    width: 100%;
     height: auto;
     border: 1px solid gainsboro;
-    left: 2%;
+    left: 0;
     margin-top: 2%;
 }
